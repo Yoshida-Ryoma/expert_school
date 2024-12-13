@@ -2,8 +2,6 @@ import streamlit as st
 import pymongo
 from pymongo import MongoClient
 
-st.markdown('<link href="expert/style.css" rel="stylesheet"/>', unsafe_allow_html=True)
-
 BOOTSTRAP_CSS="""<link href="expert/style.css" rel="stylesheet">"""
 
 # MongoDBの設定
